@@ -2,3 +2,11 @@ config.py
 venv/
 .venv/
 *.wav
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/

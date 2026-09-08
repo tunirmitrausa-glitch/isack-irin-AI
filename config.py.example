@@ -1,0 +1,11 @@
+# Copy this file to config.py and fill in your own values.
+# config.py is gitignored — never commit real credentials.
+
+# NVIDIA NIM API key. Get one at https://build.nvidia.com/ (free tier available).
+NVIDIA_API_KEY = "nvapi-..."
+
+# Jira credentials
+JIRA_EMAIL = "you@example.com"
+# Create an API token at https://id.atlassian.com/manage-profile/security/api-tokens
+JIRA_TOKEN = "your-jira-api-token"
+JIRA_SITE = "your-domain.atlassian.net"

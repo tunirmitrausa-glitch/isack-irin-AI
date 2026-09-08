@@ -1,12 +1,10 @@
 import requests
-from config import NVIDIA_API_KEY, JIRA_EMAIL, JIRA_TOKEN, JIRA_SITE
-
-api_key = "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"
+from config import NVIDIA_API_KEY
 
 url = "https://integrate.api.nvidia.com/v1/chat/completions"
 
 headers = {
-    "Authorization": f"Bearer {api_key}",
+    "Authorization": f"Bearer {NVIDIA_API_KEY}",
     "Content-Type": "application/json"
 }
 
